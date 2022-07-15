@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: login.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.146 s <<< FAILURE! - in login.LoginTest
+T(login.LoginTest)  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	Unhandled exception type ProtocolException
+	Unhandled exception type IOException
+
+	at login.LoginTest.T(LoginTest.java:12)
+
