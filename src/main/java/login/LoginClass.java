@@ -12,6 +12,7 @@ class Data{
     public String token_type;
     public Integer expire_in;
     public Long exp;
+
 }
 class User{
     public String name;

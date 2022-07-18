@@ -13,9 +13,9 @@ public class LoginTest{
     }
     @Test
     public void trueEmail_falsePass() throws ProtocolException, IOException{
-        LoginRequest loginrequest = new LoginRequest("ha@gmail.com", "ngockhanh");
+        LoginRequest loginrequest = new LoginRequest("", "ngockhanh");
         String code = loginrequest.getCode();
-        assertEquals("code should be 1002", "1002", code);
+        assertEquals( "1001", code);
     }
     @Test
     public void falseEmail_truePass() throws ProtocolException, IOException{

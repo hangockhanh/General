@@ -20,7 +20,6 @@ public class LoginRequest {
 	public LoginRequest(String email, String password) throws MalformedURLException, ProtocolException, IOException {
 	    URL url = new URL(API.login);
 	    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-
 	    connection.setRequestMethod("POST");
 	    Map<String, String> params = new HashMap<>();
 	    params.put("email", email);
@@ -54,7 +53,7 @@ public class LoginRequest {
 	                content.append(System.lineSeparator());
 	            }
 	        }
-	        // System.out.println(content.toString());
+	         System.out.println(content.toString());
 	        
 	        Gson g = new Gson(); 
 	        login = g.fromJson(content.toString(), LoginClass.class);
