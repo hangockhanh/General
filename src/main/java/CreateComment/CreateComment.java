@@ -18,11 +18,7 @@ import com.google.gson.JsonSyntaxException;
 public class CreateComment {
     public static CreateCommentClass rp;
     private static HttpURLConnection connection;
-    int rpCode;
 
-    public int fixed_comment_last_id;
-
-    public String fixed_content;
     public CreateComment(String auction_id,String content,int comment_last_id, String token) throws  IOException{
 
         StringBuilder requestContent = new StringBuilder();
@@ -51,10 +47,7 @@ public class CreateComment {
 
             }
             System.out.println(requestContent);
-            //set to model
-            // set to model
-            this.setFixed_content(content+"");
-            this.setFixed_comment_last_id(comment_last_id);
+
             // Parse JSON
             Gson g = new Gson();
             rp = g.fromJson(requestContent.toString(), CreateCommentClass.class);
@@ -74,24 +67,7 @@ public class CreateComment {
     public Data getData(){
         return rp.data;
     }
-    public String getFixed_content() {
-        return fixed_content;
-    }
 
-    public void setFixed_content(String fixed_content) {
-        this.fixed_content = fixed_content;
-    }
-
-    public int getFixed_comment_last_id() {
-        return fixed_comment_last_id;
-    }
-
-    public void setFixed_comment_last_id(int comment_last_id) {
-        this.fixed_comment_last_id = comment_last_id;
-    }
-    public int getHttpCode(){
-        return rpCode;
-    }
 
 }
 

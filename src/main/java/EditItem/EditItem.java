@@ -72,7 +72,6 @@ public class EditItem {
     public Data getData(){
         return rp.data;
     }
-
 }
 
 

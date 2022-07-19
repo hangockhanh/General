@@ -88,4 +88,14 @@ public class CreateItemTest{
         Assert.assertEquals("brand: &name: &series: 7004&description: &starting_price: ",createItem.getMessage());
         System.out.println("Success !!");
     }
+
+    @Test  // Lỗi stating_price >0
+    public void Test08() throws IOException{
+        System.out.println("Unit test 8: if starting_price <0, code should not be 1000");
+        CreateAuction createAuction = new CreateAuction("5","2023/07/14 11:31","2024/07/21 11:31","sfll",token);
+        CreateItem createItem = new CreateItem(createAuction.getAuctionId(),"girl",-300, 1, "beautiful","fke",token);
+        int code = createItem.getCode();
+        Assert.assertNotEquals(1000,code);
+        System.out.println("Success !!");
+    }
 }

@@ -70,6 +70,10 @@ public class LoginRequest {
 	public String getAccess_token(){
 		return login.data.access_token;
 	}
+	
+	public String getUser_id(){
+		return login.data.user.user_id;
+	}
 }
 
 

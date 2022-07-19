@@ -14,7 +14,7 @@ class Data{
     public String series;
     public String name;
     public String description;
-
+    public String[] images;
 
 }
 
