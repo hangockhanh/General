@@ -42,10 +42,19 @@ public class GetListCommentsTest{
     }
 
 
-    @Test
+    @Test // Lỗi index, count = null vẫn chạy ra 1000
     public void Test04() throws IOException {
-        System.out.println("Unit test 4: if index, count are empty, print all comments");
+        System.out.println("Unit test 4: if index, count are null, code should not be 1000 ");
         GetListComments getListComments = new GetListComments("1", "", "", token);
+        int code = getListComments.getCode();
+        Assert.assertNotEquals(1000, code);
+        System.out.println("Success !!");
+    }
+
+    @Test
+    public void Test05() throws IOException {
+        System.out.println("Unit test 5: If access_token is empty, still 1000 OK ");
+        GetListComments getListComments = new GetListComments("1", "1", "6", "");
         int code = getListComments.getCode();
         Assert.assertEquals(1000, code);
         Assert.assertEquals("OK", getListComments.getMessage());

@@ -21,7 +21,7 @@ public class CreateAuction {
 
     public String fixed_title;
 
-    public CreateAuction(String category_id, String start_date, String end_date, String title_ni, String accessToken) {
+    public CreateAuction(int category_id, String start_date, String end_date, String title_ni, String accessToken) {
         String line;
         BufferedReader reader;
         StringBuffer respondContent = new StringBuffer();
@@ -49,10 +49,10 @@ public class CreateAuction {
             }
             System.out.println(respondContent);
             // set to model
-            this.setFixed_id(category_id + "");
-            this.setFixed_end_date(end_date);
-            this.setFixed_start_date(start_date);
-            this.setFixed_title(title_ni);
+            //this.setFixed_id(category_id + "");
+            //this.setFixed_end_date(end_date);
+            //this.setFixed_start_date(start_date);
+            //this.setFixed_title(title_ni);
 
             // Parse JSON
             Gson g = new Gson();

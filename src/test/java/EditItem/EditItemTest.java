@@ -15,7 +15,7 @@ public class EditItemTest {
     @Test  //Lỗi data chỉ trả về name và image
     public void Test01() throws ProtocolException, IOException {
         System.out.println("Unit test 1: If all is correct, code=1000,msg=OK");
-        EditItem editItem = new EditItem("2", "chicken", 150, 1, "king of chicken1", "accvfcss", token);
+        EditItem editItem = new EditItem("2", "chicken", 150, 1, "king of chicken1", "otritor", token);
         int code = editItem.getCode();
         Assert.assertEquals(1000, code);
         Assert.assertEquals("OK", editItem.getMessage());
@@ -25,7 +25,7 @@ public class EditItemTest {
     @Test
     public void Test02() throws IOException {
         System.out.println("Unit test 2: If not your item_id you create, code=1005,msg=Không thể chỉnh sửa");
-        EditItem editItem = new EditItem("1", "chicken", 150, 1, "king of chicken1", "accbcss", token);
+        EditItem editItem = new EditItem("1", "chicken", 150, 1, "king of chicken1", "accbccss", token);
         int code = editItem.getCode();
         Assert.assertEquals(1005, code);
         Assert.assertEquals("Không thể chỉnh sửa", editItem.getMessage());
@@ -35,7 +35,7 @@ public class EditItemTest {
     @Test
     public void Test03() throws IOException {
         System.out.println("Unit test 3: If name is empty, code =1001, msg=brand: &name: 7000&series: &description: &starting_price: ");
-        EditItem editItem = new EditItem("2", "", 2350, 2, "king of chicken1", "esccfcdc", token);
+        EditItem editItem = new EditItem("2", "", 2350, 2, "king of chicken1", "esccefcdc", token);
         int code = editItem.getCode();
         Assert.assertEquals(1001, code);
         Assert.assertEquals("brand: &name: 7000&series: &description: &starting_price: ", editItem.getMessage());
@@ -45,7 +45,7 @@ public class EditItemTest {
     @Test
     public void Test04() throws IOException {
         System.out.println("Unit test 4: If series exist, code = 1001, msg =brand: &name: &series: 7004&description: &starting_price: ");
-        EditItem editItem = new EditItem("390", "ccc", 2350, 2, "king of chicken1", "esccdc", token);
+        EditItem editItem = new EditItem("390", "ccc", 2350, 2, "king of chicken1", "escmcdc", token);
         int code = editItem.getCode();
         Assert.assertEquals(1001, code);
         Assert.assertEquals("brand: &name: &series: 7004&description: &starting_price: ", editItem.getMessage());

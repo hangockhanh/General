@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f26dbb5-5ef5-4d41-a7fc-fcbb0e3abbeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitaplon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreateComment/CreateComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateComment/CreateComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreateItem/CreateItemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateItem/CreateItemClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditItem/EditItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditItem/EditItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditItem/EditItemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditItem/EditItemClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/login/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateComment/CreateCommentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateComment/CreateCommentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreateAuction/CreateAuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateAuction/CreateAuction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CreateItem/CreateItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateItem/CreateItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeleteComment/DeleteCommentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeleteComment/DeleteCommentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EditItem/EditItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EditItem/EditItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetListComments/GetListCommentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetListComments/GetListCommentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CreateComment/CreateComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateComment/CreateComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CreateItem/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateItem/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EditItem/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EditItem/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/login/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateComment/CreateCommentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CreateComment/CreateCommentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateItem/CreateItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CreateItem/CreateItemTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DeleteComment/DeleteCommentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeleteComment/DeleteCommentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EditItem/EditItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EditItem/EditItemTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GetListComments/GetListCommentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetListComments/GetListCommentsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +46,23 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CreateItemTest.Test08">
+  <component name="RunManager" selected="JUnit.InfoItemTest.Test01">
+    <configuration name="CreateItemTest.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baitaplon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreateItem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CreateItem" />
+      <option name="MAIN_CLASS_NAME" value="CreateItem.CreateItemTest" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateItemTest.Test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="baitaplon" />
       <extension name="coverage">
@@ -81,54 +74,6 @@
       <option name="PACKAGE_NAME" value="CreateItem" />
       <option name="MAIN_CLASS_NAME" value="CreateItem.CreateItemTest" />
       <option name="METHOD_NAME" value="Test08" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditItemTest.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baitaplon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EditItem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EditItem" />
-      <option name="MAIN_CLASS_NAME" value="EditItem.EditItemTest" />
-      <option name="METHOD_NAME" value="Test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditItemTest.Test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baitaplon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EditItem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EditItem" />
-      <option name="MAIN_CLASS_NAME" value="EditItem.EditItemTest" />
-      <option name="METHOD_NAME" value="Test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditItemTest.Test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baitaplon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EditItem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EditItem" />
-      <option name="MAIN_CLASS_NAME" value="EditItem.EditItemTest" />
-      <option name="METHOD_NAME" value="Test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,20 +95,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetListCommentsTest.Test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baitaplon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GetListComments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GetListComments" />
+      <option name="MAIN_CLASS_NAME" value="GetListComments.GetListCommentsTest" />
+      <option name="METHOD_NAME" value="Test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfoItemTest.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baitaplon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InfoItem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="InfoItem" />
+      <option name="MAIN_CLASS_NAME" value="InfoItem.InfoItemTest" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.CreateItemTest.Test01" />
+      <item itemvalue="JUnit.InfoItemTest.Test01" />
+      <item itemvalue="JUnit.GetListCommentsTest.Test05" />
       <item itemvalue="JUnit.CreateItemTest.Test08" />
-      <item itemvalue="JUnit.EditItemTest.Test01" />
-      <item itemvalue="JUnit.EditItemTest.Test03" />
-      <item itemvalue="JUnit.EditItemTest.Test05" />
       <item itemvalue="JUnit.GetListCommentsTest.Test04" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateItemTest.Test08" />
-        <item itemvalue="JUnit.EditItemTest.Test05" />
-        <item itemvalue="JUnit.EditItemTest.Test03" />
-        <item itemvalue="JUnit.EditItemTest.Test01" />
+        <item itemvalue="JUnit.InfoItemTest.Test01" />
+        <item itemvalue="JUnit.CreateItemTest.Test01" />
         <item itemvalue="JUnit.GetListCommentsTest.Test04" />
+        <item itemvalue="JUnit.GetListCommentsTest.Test05" />
+        <item itemvalue="JUnit.CreateItemTest.Test08" />
       </list>
     </recent_temporary>
   </component>
