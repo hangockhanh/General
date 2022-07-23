@@ -29,6 +29,7 @@ public class CreateCommentTest{
         CreateComment createComment = new CreateComment("1","",2, login.getAccess_token());
         int code = createComment.getCode();
         Assert.assertEquals(1001,code);
+        Assert.assertEquals("auction_id: &content: 7000&comment_last_id: ",createComment.getMessage());
         System.out.println("Success !!");
     }
 

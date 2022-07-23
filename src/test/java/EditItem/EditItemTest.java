@@ -19,6 +19,7 @@ public class EditItemTest {
         int code = editItem.getCode();
         Assert.assertEquals(1000, code);
         Assert.assertEquals("OK", editItem.getMessage());
+        Assert.assertEquals(1, editItem.getData().brand_id);
         System.out.println("Success !!");
     }
 
